@@ -7,22 +7,22 @@
 
     <fragment
         android:id="@+id/explorerFragment"
-        android:name="com.example.ecommerce.ExplorerFragment"
+        android:name="com.example.ecommerce.presentation.ExplorerFragment"
         android:label="fragment_explorer"
         tools:layout="@layout/fragment_explorer" />
     <fragment
         android:id="@+id/cartFragment"
-        android:name="com.example.ecommerce.CartFragment"
+        android:name="com.example.ecommerce.presentation.CartFragment"
         android:label="fragment_cart"
         tools:layout="@layout/fragment_cart" />
     <fragment
         android:id="@+id/favoritesFragment"
-        android:name="com.example.ecommerce.FavoritesFragment"
+        android:name="com.example.ecommerce.presentation.FavoritesFragment"
         android:label="fragment_favorites"
         tools:layout="@layout/fragment_favorites" />
     <fragment
         android:id="@+id/profileFragment"
-        android:name="com.example.ecommerce.ProfileFragment"
+        android:name="com.example.ecommerce.presentation.ProfileFragment"
         android:label="fragment_profile"
         tools:layout="@layout/fragment_profile" />
 </navigation>

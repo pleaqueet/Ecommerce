@@ -1,9 +1,14 @@
-package com.example.ecommerce
+package com.example.ecommerce.presentation
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
+import com.example.ecommerce.R
 import com.example.ecommerce.databinding.ActivityMainBinding
+import com.example.ecommerce.presentation.cart.CartFragment
+import com.example.ecommerce.presentation.explorer.ExplorerFragment
+import com.example.ecommerce.presentation.favorites.FavoritesFragment
+import com.example.ecommerce.presentation.profile.ProfileFragment
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding

@@ -9,7 +9,9 @@ import com.example.ecommerce.presentation.cart.CartFragment
 import com.example.ecommerce.presentation.explorer.ExplorerFragment
 import com.example.ecommerce.presentation.favorites.FavoritesFragment
 import com.example.ecommerce.presentation.profile.ProfileFragment
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
 
